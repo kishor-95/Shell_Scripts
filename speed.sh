@@ -22,5 +22,5 @@ echo "Read Speed (cached): $READ_SPEED"
 # Clean up
 rm -f $TEST_FILE
 
-echo "Test completed."
+echo "Test completed.!!"
 
