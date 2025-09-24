@@ -49,11 +49,7 @@ To use the scripts in this repository, follow these steps:
 
 Below is a brief overview of the scripts in this repository.  
 Each script includes comments explaining its purpose and usage:
-
-- `script1.sh`: Description of what this script does.
-- `script2.sh`: Description of what this script does.
-- _(Add descriptions for all other scripts here.)_
-
+- This scripts does perticular task such network speed, system monitioring, backup remote to remote or local to report.
 ---
 
 ## ⚙️ Usage
