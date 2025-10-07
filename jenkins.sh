@@ -34,5 +34,5 @@ sudo systemctl daemon-reload
 sudo systemctl enable --now jenkins
 
 ## Adding jenkins port in firewall
-sudo firewall-cmd --add-port=8080/tcp --permant
+sudo firewall-cmd --add-port=8080/tcp --permanent
 sudo firewall-cmd --reload
