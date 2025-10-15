@@ -3,7 +3,7 @@
 wget -q --spider https://google.com
 
 if [ $? -eq 0 ]; then
-echo "Online"
+echo "Connectd to Internet"
 else
-echo "Offline"
+echo "Offline you are offline"
 fi
