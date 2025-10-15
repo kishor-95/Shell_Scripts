@@ -1,3 +1,6 @@
+#!/bin/bash
+
+echo "Following runing resources Please look it..........."
 echo -e "\nDisk usage of root(/):"
 df -h /
 
