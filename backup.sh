@@ -30,6 +30,9 @@ fi
 ## creating backup file
 
 sudo tar -czf "$DEST/$BACKUP_FILE_NAME" -C "$(dirname $SOURCE)" "$(basename $SOURCE)"
+
+## Checking Size of  backup file
+echo "Checking the size of $BACKUP_FILE_SIZE:"
 BACKUP_SIZE=$(du -sh "$DEST/$BACKUP_FILE_NAME" | cut -f1)
 echo "Backup completed: $BACKUP_FILE_NAME (Size: $BACKUP_SIZE)" | sudo tee -a /var/log/backup.log
 
