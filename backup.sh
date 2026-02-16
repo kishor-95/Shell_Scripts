@@ -11,7 +11,7 @@ BACKUP_FILE_NAME="backup_$TIME.tar.gz"
 
 ## Checking the path are aviables
 
-if [ -d $DEST ]; then
+if [ ! -d $DEST ]; then
 	echo "Given $DEST is present"
 else
 	echo "Given $DEST is not present"
