@@ -1,4 +1,8 @@
 #!/bin/bash
+
+# Update the machine
+
+sudo apt update -y 
 ## First we add repos
 echo "Importing key..."
 sudo wget -O /etc/apt/keyrings/jenkins-keyring.asc \
