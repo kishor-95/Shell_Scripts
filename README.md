@@ -1,7 +1,7 @@
 # Devops Automation Scripts
 
 Welcome to the **Shell Scripts** repository!  
-This repository contains various shell scripts created for testing purposes. These scripts showcase different functionalities and are useful for learning, testing, and automating tasks.
+This repository contains various shell scripts created for learning purposes. These scripts showcase different functionalities and are useful for learning, testing, and automating tasks.
 
 ---
 
